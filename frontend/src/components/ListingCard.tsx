@@ -87,7 +87,7 @@ const ListingCard = ({ listing }: ListingCardProps) => {
                   className={`w-1.5 h-1.5 rounded-full ${
                     index === currentImageIndex
                       ? 'bg-white'
-                      : 'bg-white/50'
+                      : 'bg-white'
                   }`}
                 />
               ))}
